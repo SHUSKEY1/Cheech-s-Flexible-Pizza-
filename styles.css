@@ -22,7 +22,10 @@ nav>ul{
   list-style-type: none;
   padding-left: 5px;
   display: flex;
-  padding: 0 10px 0 10px;
+}
+nav ul li{
+    padding: 0 25px 0 10px;
+    padding-left:250px;
 }
 nav>ul>li:nth-of-type(6){
   margin-top: 20px;
@@ -31,10 +34,44 @@ nav>ul>li:nth-of-type(16){
   margin-top: 20px;
 }
 nav > ul > li > a:link, nav > ul > li > a:visited{
-  color: rgb(151,151,151);
+  color: rgb(16,16,16);
   text-decoration: none;
 }
 nav > ul > li > a:hover, nav >ul > li > a:active{
   color: rgb(80,80,80);
   text-decoration:underline;
 }
+
+.Special1{
+  display: flex;
+  flex-direction: row;
+}
+
+.Special2{
+  display: flex;
+  flex-direction: row;
+}
+
+.Special3{
+  display: flex;
+  flex-direction: row;
+}
+
+.Special4{
+  display: flex;
+  flex-direction: row;
+}
+
+.Special5{
+  display: flex;
+  flex-direction: row;
+}
+
+.Special6{
+  display: flex;
+  flex-direction: row;
+}
+
+.clearfix:after {content: ""; display: table;clear: both;}
+@media screen and (min-width:578px) {
+display:flex;}
