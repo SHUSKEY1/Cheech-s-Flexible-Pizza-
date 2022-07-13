@@ -13,7 +13,16 @@ header{
 body{
   background: url("background.png");
 }
-
+p{
+  color: white;
+}
+h1{
+  background: radial-gradient(white 30%,
+                          rgb(151,151,151));
+  border: 2px;
+  border-color: black;
+  box-shadow: rgb(51,51,51) 10px 10px 20px;
+}
 img{
   width: 35%;
 }
@@ -41,37 +50,48 @@ nav > ul > li > a:hover, nav >ul > li > a:active{
   color: rgb(80,80,80);
   text-decoration:underline;
 }
-
-.Special1{
+.container{
   display: flex;
+  flex-basis: 100%;
   flex-direction: row;
+  flex-wrap: wrap;
 }
-
-.Special2{
+.container1{
   display: flex;
-  flex-direction: row;
 }
-
-.Special3{
+.container2{
   display: flex;
-  flex-direction: row;
-}
-
-.Special4{
-  display: flex;
-  flex-direction: row;
-}
-
-.Special5{
-  display: flex;
-  flex-direction: row;
-}
-
-.Special6{
-  display: flex;
-  flex-direction: row;
 }
 
 .clearfix:after {content: ""; display: table;clear: both;}
 @media screen and (min-width:578px) {
-display:flex;}
+
+.Special1{
+  width: 50%;
+  text-align: center;
+}
+.Special2{
+  width: 50%;
+    text-align: center;
+}
+
+.Special3{
+    width: 50%;
+  text-align: center;
+}
+
+.Special4{
+    width: 50%;
+  text-align: center;
+}
+
+.Special5{
+    width: 50%;
+  text-align: center;
+}
+
+.Special6{
+    width: 50%;
+  text-align: center;
+}
+}
