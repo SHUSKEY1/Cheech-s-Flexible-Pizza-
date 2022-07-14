@@ -23,6 +23,10 @@ h1{
   border-color: black;
   box-shadow: rgb(51,51,51) 10px 10px 20px;
 }
+h4{
+  color: white;
+  font-size: 65px;
+}
 img{
   width: 35%;
 }
@@ -63,6 +67,20 @@ nav > ul > li > a:hover, nav >ul > li > a:active{
   display: flex;
 }
 
+.Colum1{
+  display: flex;
+  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Colum2{
+  display: flex;
+  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .clearfix:after {content: ""; display: table;clear: both;}
 @media screen and (min-width:578px) {
 
@@ -92,6 +110,14 @@ nav > ul > li > a:hover, nav >ul > li > a:active{
 
 .Special6{
     width: 50%;
+  text-align: center;
+}
+.Colum1{
+  width: 50%;
+  text-align: center;
+}
+.Colum2{
+  width: 45%;
   text-align: center;
 }
 }
